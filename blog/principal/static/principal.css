@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.logo {
+    font-family: 'Archivo', sans-serif;
+    letter-spacing: -1.5px;
+}
+
+.probando {
+    font-family: 'Barlow', sans-serif;
+
+}
+
+html,
+body {
+    font-family: 'Merriweather', serif;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
