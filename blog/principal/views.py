@@ -5,3 +5,4 @@ from .models import Post
 class PrincipalView(ListView):
     model = Post
     template_name = "principal/index.html"
+    context_object_name = "posts"

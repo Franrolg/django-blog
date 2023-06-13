@@ -1,7 +1,8 @@
 # Factory-Boy
 import factory
-from principal.models import Post
+
 # Modelos
+from principal.models import Post
 from django.contrib.auth.models import User
 
 class UserFactory(factory.django.DjangoModelFactory):
