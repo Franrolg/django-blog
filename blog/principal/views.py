@@ -4,5 +4,10 @@ from .models import Post
 
 class PrincipalView(ListView):
     model = Post
-    template_name = "principal/index.html"
     context_object_name = "posts"
+    paginate_by = 10
+
+    def get_template_names(self):
+        if self.request.htmx:
+            return "principal/componentes/lista-posts.html"
+        return "principal/index.html"
